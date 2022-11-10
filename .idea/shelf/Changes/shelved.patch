@@ -1,0 +1,183 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1667998883833)
++++ b/.idea/vcs.xml	(date 1667998883833)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1666949477310)
++++ b/.idea/modules.xml	(date 1666949477310)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/blog.iml" filepath="$PROJECT_DIR$/.idea/blog.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/dataSources.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/dataSources.xml b/.idea/dataSources.xml
+new file mode 100644
+--- /dev/null	(date 1667980764455)
++++ b/.idea/dataSources.xml	(date 1667980764455)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
++    <data-source source="LOCAL" name="postgres@localhost" uuid="0cc39d53-0ba3-4dde-acaf-8f022f6abdca">
++      <driver-ref>postgresql</driver-ref>
++      <synchronize>true</synchronize>
++      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
++      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
++      <working-dir>$ProjectFileDir$</working-dir>
++    </data-source>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/inspectionProfiles/Project_Default.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/Project_Default.xml b/.idea/inspectionProfiles/Project_Default.xml
+new file mode 100644
+--- /dev/null	(date 1667980815845)
++++ b/.idea/inspectionProfiles/Project_Default.xml	(date 1667980815845)
+@@ -0,0 +1,20 @@
++<component name="InspectionProjectProfileManager">
++  <profile version="1.0">
++    <option name="myName" value="Project Default" />
++    <inspection_tool class="GoUnhandledErrorResult" enabled="true" level="WARNING" enabled_by_default="true">
++      <methods>
++        <method importPath="hash" receiver="Hash" name="Write" />
++        <method importPath="strings" receiver="*Builder" name="Write" />
++        <method importPath="strings" receiver="*Builder" name="WriteByte" />
++        <method importPath="bytes" receiver="*Buffer" name="WriteRune" />
++        <method importPath="bytes" receiver="*Buffer" name="Write" />
++        <method importPath="bytes" receiver="*Buffer" name="WriteString" />
++        <method importPath="strings" receiver="*Builder" name="WriteString" />
++        <method importPath="bytes" receiver="*Buffer" name="WriteByte" />
++        <method importPath="strings" receiver="*Builder" name="WriteRune" />
++        <method importPath="math/rand" receiver="*Rand" name="Read" />
++        <method importPath="database/sql" receiver="*Rows" name="Close" />
++      </methods>
++    </inspection_tool>
++  </profile>
++</component>
+\ No newline at end of file
+Index: .idea/blog.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/blog.iml b/.idea/blog.iml
+new file mode 100644
+--- /dev/null	(date 1666949477302)
++++ b/.idea/blog.iml	(date 1666949477302)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="WEB_MODULE" version="4">
++  <component name="Go" enabled="true" />
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/PawAdvisorSettingsPlugin.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/PawAdvisorSettingsPlugin.xml b/.idea/PawAdvisorSettingsPlugin.xml
+new file mode 100644
+--- /dev/null	(date 1666949545658)
++++ b/.idea/PawAdvisorSettingsPlugin.xml	(date 1666949545658)
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="come.pawsql.plugin.SettingState">
++    <option name="dbHost" value="localhost" />
++    <option name="dbPort" value="3306" />
++    <option name="dedup" value="true" />
++    <option name="passwd" value="root" />
++    <option name="user" value="root" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1666949477462)
++++ b/.idea/.gitignore	(date 1666949477462)
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
+Index: .idea/sqldialects.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/sqldialects.xml b/.idea/sqldialects.xml
+new file mode 100644
+--- /dev/null	(date 1667980793228)
++++ b/.idea/sqldialects.xml	(date 1667980793228)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="SqlDialectMappings">
++    <file url="file://$PROJECT_DIR$/storage/blog.go" dialect="GenericSQL" />
++    <file url="file://$PROJECT_DIR$/storage/blog.sql" dialect="GenericSQL" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/codeStyles/codeStyleConfig.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/codeStyles/codeStyleConfig.xml b/.idea/codeStyles/codeStyleConfig.xml
+new file mode 100644
+--- /dev/null	(date 1667984005968)
++++ b/.idea/codeStyles/codeStyleConfig.xml	(date 1667984005968)
+@@ -0,0 +1,5 @@
++<component name="ProjectCodeStyleConfiguration">
++  <state>
++    <option name="PREFERRED_PROJECT_CODE_STYLE" value="Default" />
++  </state>
++</component>
+\ No newline at end of file
